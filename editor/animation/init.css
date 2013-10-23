@@ -67,6 +67,7 @@
     text-align: center;
     vertical-align: top;
     padding: 3px;
+    width: 120px;
 }
 
 /*it for firefox*/
@@ -172,4 +173,8 @@ fieldset[disabled] .btn {
     text-align: center;
     color: #294270;
     padding: 10px;
+}
+
+.tryit-content .btn {
+    width: 100px;
 }
