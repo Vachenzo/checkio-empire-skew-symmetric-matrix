@@ -3,7 +3,7 @@
         <div class="output"></div>
         <div class="explanation center-exp"></div>
         <div class="answer"></div>
-        <div class="call"></div>
+        <div class="call"><span class="call-result"></span></div>
     </div>
 </script>
 
@@ -11,16 +11,23 @@
     <div class="tryit-content center-exp">
         <table class="tool">
             <tr>
+                <td colspan="3" class="tooltip">Choose predefined matrix</td>
+            </tr>
+            <tr>
                 <td>
-                    <input type="text" value="test">
+                    <button class="bn-skew btn">Skew-symmetric</button>
                 </td>
                 <td>
-                    <button class="bn-check btn">Action</button>
+                    <button class="bn-non-skew btn">Non Skew-symmetric</button>
+                </td>
+                <td>
+                    <button class="bn-non-zero btn">Non zero diagonal</button>
                 </td>
             </tr>
             <tr>
-                <td colspan="2" class="checkio-result">
-                    Result:<br>
+                <td colspan="2" class="tryit-canvas">
+                </td>
+                <td class="checkio-result">
                     <span class="checkio-result-in">&nbsp;</span>
                 </td>
             </tr>
