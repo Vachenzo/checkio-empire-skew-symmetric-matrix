@@ -1,39 +1,49 @@
 <p>
-    <i>( Describe task in general )</i>
+    In mathematics, particularly in linear algebra,
+    a skew-symmetric matrix(also known as an antisymmetric or antimetric[1]) is a square matrix "A" whose transpose
+    is also its negative.
+    This means it satisfies the equation
+    <span style="white-space: nowrap">A = &minus;A<sup>T</sup>.</span>
+    If the entry in the i-th row and j-th&nbsp;column is a<sub>ij</sub>, i.e.
+    <span style="white-space: nowrap">A = (a<sub>ij</sub>)</span>
+    then the symmetric condition becomes
+    <span style="white-space: nowrap">a<sub>ij</sub> = &minus;a<sub>ji</sub>.</span>
 </p>
-
 <p>
-    Sum two passed ints
+    You should determine whether the specified square matrix is skew-symmetric
+    or not.
 </p>
-
-<p style="text-align: center;">
-    <img class="for_info_only" title="example" src="{{MEDIA}}example.png" alt="example" width="392px"/>
-    <img class="for_editor_only" title="example" src="{{MEDIA}}example.png" alt="example" width="380px"/>
-</p>
-
-<p><i>( Explain input and output values )</i></p>
 <p>
-    <strong>Input: </strong> Two arguments. Both are int
+    You can find more details on Skew-symmetric matrices on its <a
+        href="http://en.wikipedia.org/wiki/Skew-symmetric_matrix"
+        target="_blank">Wikipedia page.</a>
 </p>
 
-<p>
-    <strong>Output: </strong> Int. 
+<p><strong>Input: </strong> Square matrix N*N as a list of lists with integers.</p>
+<p><strong>Output: </strong> If matrix is skew-symmetric or not as a boolean.
 </p>
-
-
 
 <div class="for_info_only">
-    <p><i>( Put some usage examples )</i></p>
+
     <p>
         <strong>Example:</strong>
     </p>
-    <pre class="brush: python">
-checkio(3, 2) == 5
-checkio(5, 7) == 12
-    </pre>
+<pre class="brush: python">checkio([
+    [ 0,  1,  2],
+    [-1,  0,  1],
+    [-2, -1,  0]]) == True
+checkio([
+    [ 0,  1, 2],
+    [-1,  1, 1],
+    [-2, -1, 0]]) == False
+checkio([
+    [ 0,  1, 2],
+    [-1,  0, 1],
+    [-3, -1, 0]]) == False</pre>
 </div>
+
 
 <p class="for_info_only">
     <strong>How it is used: </strong>
-    <i>(Here you can explain how it can be used in development and what is usage of this.)</i>
+    Mathematical software.
 </p>
