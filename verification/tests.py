@@ -199,6 +199,20 @@ TESTS = {
                 [-9, 0, 0, 0, 0]
             ],
             "answer": False
-        }
+        },
+        {
+            "input": [
+                [0]
+            ],
+            "answer": True
+        },
+        {
+            "input": [
+                [1]
+            ],
+            "answer": False
+        },
+
+
     ]
 }
