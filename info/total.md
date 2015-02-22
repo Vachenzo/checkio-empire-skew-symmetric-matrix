@@ -1,5 +1,5 @@
-Do you know that linear algebra is very useful for the calculation of movement of forces?
-So take your pens and learn, learn, learn.
+Do you know that linear algebra is very useful for the calculation of movement of our forces?
+So take your pens and algebra books and learn, learn, learn.
 
 In mathematics, particularly in linear algebra, a skew-symmetric matrix(also known as an antisymmetric or antimetric) 
 is a square matrix <strong>A</strong> whose transpose is also its negative.
@@ -35,7 +35,7 @@ is_skew_symmetric([
 **How it is used:**
 
 Skew-symmetric matrices can be useful for the cross product, 
-an operation in mathematics used in the calculation of movement of forces.
+an operation in mathematics used in the calculation of movement of military forces.
 Matrixes are basis for the linear algebra and vector graphics.
 
 **Precondition:**
